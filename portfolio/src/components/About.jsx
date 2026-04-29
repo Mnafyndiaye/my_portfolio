@@ -15,7 +15,7 @@ const About = () => {
         <div className="about-grid">
           <div className="about-text glass-card">
             <p>
-              Passionné par le développement web, je crée des applications complètes,
+              Passionnée par le développement web, je crée des applications complètes,
               depuis la conception de l'expérience utilisateur jusqu'à l'architecture backend complexe.
             </p>
             <p>
