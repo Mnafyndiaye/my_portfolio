@@ -129,3 +129,14 @@ img {
 section {
   padding: 6rem 0;
 }
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1.2rem;
+  }
+  
+  section {
+    padding: 4rem 0;
+  }
+}
+
