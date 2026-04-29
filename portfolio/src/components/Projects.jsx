@@ -21,11 +21,11 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Gateway API & Monitor",
-      description: "Interface de gestion et de monitoring pour microservices et architectures distribuées.",
-      image: "/project_api.png",
-      tech: ["Vue.js", "Go", "Docker", "Redis"],
-      link: "#"
+      title: "Annuaire Senegal Business",
+      description: "Une plateforme Full-Stack moderne conçue pour digitaliser et centraliser la visibilité des petites entreprises et artisans locaux au Sénégal.",
+      image: "/project_annuaireSN.png",
+      tech: ["React", "Node.js", "Express", "MySQL"],
+      link: "https://github.com/Mnafyndiaye/Annuaires"
     }
   ];
 
@@ -33,7 +33,7 @@ const Projects = () => {
     <section id="projects" className="projects-section">
       <div className="container">
         <h2 className="section-title">Expériences & Projets</h2>
-        
+
         <div className="projects-grid">
           {projectList.map(project => (
             <div key={project.id} className="project-card glass-card">
