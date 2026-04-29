@@ -17,7 +17,7 @@ function App() {
         <Contact />
       </main>
       <footer style={{ textAlign: 'center', padding: '2rem', background: '#0a0a0a', borderTop: '1px solid #1a1a1a', color: '#d4cbbd' }}>
-        <p>© {new Date().getFullYear()} Mon Portfolio. Tous droits réservés.</p>
+        <p>© {new Date().getFullYear()} Bonitadev. Tous droits réservés.</p>
       </footer>
     </div>
   );
