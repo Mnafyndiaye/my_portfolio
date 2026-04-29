@@ -38,13 +38,23 @@
 .contact-link .icon {
   background: rgba(255, 42, 133, 0.1);
   color: var(--color-pink-primary);
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  font-size: 1.2rem;
+  transition: var(--transition-smooth);
+}
+
+.contact-link .icon svg {
+  transition: var(--transition-smooth);
+}
+
+.contact-link:hover .icon {
+  background: var(--color-pink-primary);
+  color: var(--color-cream);
+  transform: scale(1.1);
 }
 
 .contact-link:hover {
